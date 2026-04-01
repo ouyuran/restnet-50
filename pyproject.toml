@@ -1,0 +1,15 @@
+[project]
+name = "resnet-50"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "transformers",
+    "torch",
+    "datasets",
+    "pillow",
+    "torchvision",
+    "optimum[onnxruntime]",
+    "onnxruntime",
+]
